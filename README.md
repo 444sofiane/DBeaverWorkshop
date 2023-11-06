@@ -2,6 +2,52 @@
 
 This workshop guides you through creating a database named "SampleData" and importing provided data using DBeaver, a universal database tool.
 
+### Part 0: Installing DBeaver
+
+#### Windows:
+
+1. **Download DBeaver:**
+
+   - Go to the [DBeaver official website](https://dbeaver.io/) and navigate to the download section.
+   - Select the appropriate version for Windows and download the installer.
+
+2. **Install DBeaver:**
+
+   - Locate the downloaded installer file.
+   - Double-click the file to start the installation process.
+   - Follow the on-screen instructions to complete the installation.
+
+#### Linux:
+
+1. **Using Package Manager:**
+
+   - For Debian/Ubuntu-based systems:
+     ```bash
+     sudo apt-get update
+     sudo apt-get install dbeaver-ce
+     ```
+
+   - For Red Hat-based systems (Fedora, CentOS):
+     ```bash
+     sudo dnf install dbeaver-ce
+     ```
+
+   - For Arch Linux:
+     ```bash
+     sudo pacman -S dbeaver
+     ```
+
+   - For other Linux distributions, you can find installation instructions on the DBeaver website.
+
+2. **Alternative Installation Method:**
+
+   Alternatively, you can download the DBeaver package from the official website:
+   - Go to the [DBeaver official website](https://dbeaver.io/) and navigate to the download section for Linux.
+   - Follow the provided installation instructions for your specific distribution.
+
+Once you have installed DBeaver, you can proceed with the workshop to create the "SampleData" database and import provided data as described in the subsequent sections.
+
+
 ### Part 1: Setting Up the Database and Importing Data
 
 1. **Create Database:**
