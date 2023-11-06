@@ -45,9 +45,27 @@ After importing the data, you can run SQL queries in DBeaver to analyze and mani
 Here are a few sample SQL queries you can execute in DBeaver using the SQL Editor :
 
 1. **Retrieve all Data from Sales**
-    See the select query in SQL
+
+    See the SELECT query in SQL
 
 2. **Filter to show only OrderDate Column** 
 
 3. **Calculate total Units sold and total revenue**
-    See the Sum query in SQL
+
+    See the SUM query in SQL
+
+4. **Order the result set based on the values in the Total column in descending order and show only the 10 first**
+
+    See the DESC, ORDER BY and LIMIT query in SQL
+
+5. **Show the East region sales where the Unit cost is higher than 10**
+
+    See the WHERE, AND query in sql
+
+6. **Update so the Unit cost in the central region will always be 5.99**
+
+    See the UPDATE query in sql
+
+7. **Delete the pencil item in the west region**
+
+    See the DELETE query in sql
