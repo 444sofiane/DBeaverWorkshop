@@ -1,6 +1,6 @@
-# Workshop: Importing Data into SampleData Database using DBeaver
+# Workshop: Importing Data into Sales Database using DBeaver
 
-This workshop guides you through creating a database named "SampleData" and importing provided data using DBeaver, a universal database tool.
+This workshop guides you through creating a database named "Sales" and importing provided data using DBeaver, a universal database tool.
 
 ### Part 0: Installing DBeaver
 
@@ -45,7 +45,7 @@ This workshop guides you through creating a database named "SampleData" and impo
    - Go to the [DBeaver official website](https://dbeaver.io/) and navigate to the download section for Linux.
    - Follow the provided installation instructions for your specific distribution.
 
-Once you have installed DBeaver, you can proceed with the workshop to create the "SampleData" database and import provided data as described in the subsequent sections.
+Once you have installed DBeaver, you can proceed with the workshop to create the "Sales" database and import provided data as described in the subsequent sections.
 
 
 ### Part 1: Setting Up the Database and Importing Data
@@ -55,11 +55,11 @@ Once you have installed DBeaver, you can proceed with the workshop to create the
    Open DBeaver and establish a connection to your preferred database server (e.g., MySQL, PostgreSQL).
 
    - Right-click on the server in the Databases navigator.
-   - Select "Create Database" and name it "SampleData".
+   - Select "Create Database" and name it "Sales".
 
 2. **Create Table and Import Data:**
 
-   - Right-click on the "SampleData" database.
+   - Right-click on the "Sales" database.
    - Select "SQL Editor" to open a new SQL script.
 
 3. **Create Table Schema:**
@@ -80,7 +80,7 @@ Once you have installed DBeaver, you can proceed with the workshop to create the
 4. **Import Data From Excel**
     Save the provided data in a CSV file format. In DBeaver:
 
-    Right-click on the "Sales" table within the "SampleData" database.
+    Right-click on the "Sales" table within the "Sales" database.
     Choose "Table Data > Import Data from File."
     Select the CSV file containing the data and follow the wizard to map the columns and import the data into the "Sales" table.
 
